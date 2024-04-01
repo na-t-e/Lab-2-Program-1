@@ -1,0 +1,45 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+double num1 = 0;
+double num2 = 0;
+double num3 = 0;
+double num4 = 0;
+cout << "Enter the first number: ";
+cin >> num1;
+cout << "Enter the second number: ";
+cin >> num2;
+cout << "Enter the third number: ";
+cin >> num3;
+
+cout << "\nThe square root of the first number is " << fixed << setprecision
+(2) << " " << sqrt(num1) << endl;
+cout << fixed << setprecision(2) << num1 << " raised to a power of 3 is " <<
+fixed << setprecision(2) << pow(4, 3) << endl;
+cout << "The absolute value of -" << fixed << setprecision(2) << num1 << " is
+" << fixed << setprecision(2) << num1 << endl;
+
+num4 = (num1 + num2 + num3) / 3;
+cout << "The average equals " << fixed << setprecision(2) << num4 << "." <<
+endl;
+return 0;
+}
+
+//** OUTPUT
+Enter the first number : 4
+Enter the second number : 9
+Enter the third number : 18
+The square root of the first number is 2.00
+4.00 raised to a power of 3 is 64.00
+The absolute value of - 4.00 is 4.00
+The average equals 10.33.
+C : \Users\Nathan\source\repos\Lab2 program 1\Debug\Lab2 program 1.exe(process
+9224) exited with code 0.
+Press any key to close this window . . .
+
+//
